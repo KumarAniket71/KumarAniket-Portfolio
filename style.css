@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body {
+    background-color: rgb(3, 3, 12);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    background-color: rgb(8, 8, 34);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(119, 119, 221);
+    font-size: 1.3rem;
+}
+
+main hr {
+    order: 0;
+    background: #9c97f1;
+    height: 1.2px;
+    margin: 60px 84px;
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 130px 0;
+}
+
+.firstSection>div {
+    width: 30%;
+}
+
+.leftSection {
+
+    font-size: 3rem;
+
+}
+
+.rightSection img {
+    width: 80%;
+
+}
+
+.Purple {
+    color: blueviolet;
+}
+
+.Green {
+    color: rgb(7, 146, 42);
+}
+
+#element {
+    color: rgb(119, 119, 221);
+}
+
+.secondSection {
+    max-width: 80vw;
+    margin: auto;
+}
+
+.secondSection h1{
+    font-size:  1.9rem;
+    text-align: center;
+}
+
+
+
+.secondSection .box{
+    background: rgb(11, 17, 44);
+    width: 76vw;
+    height: 300px;
+    margin:56px 0;
+    display: flex;
+}
+
+.secondSection .vertical{
+    height: 93px;
+    width: 1px;
+    background: white;
+    margin:0px 140px;
+}
+.image-top{
+    width:23px;
+    position: relative;
+    top: -32px;
+    left: -9px;
+}
+
+.vertical-title{
+    position: relative;
+    width: 150px;
+    top: 75px;
+    font-size:14px;
+}
+
+.vertical-desc{
+    position: relative;
+    top: 86px;
+    color: gray;
+    width: 150px;
+    font-size: 9px;
+}
+footer{
+    background-color: #0e0e1a;
+    
+}
+.footer{
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+}
+
+.footer ul{
+    list-style: none;
+}
+
+.footer > div{
+    width: 223px;
+}
+
+footer .text-center{
+    text-align: center;
+    color: grey;
+    padding: 12px 0px;
+
+}
+
+.footer .footer-second ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer .footer-second ul li a:hover{
+    color: rgb(119, 119, 221);
+    font-size: 1.3rem;
+}
+.footer .footer-fourth ul li a{
+    text-decoration: none;
+    color: white;
+}
+.footer .footer-fourth ul li a:hover{
+    color: rgb(119, 119, 221);
+    font-size: 1.3rem;
+}
+.footer .footer-second ul li a img{
+    width: 46%;
+}
+.footer .footer-third ul li a{
+    text-decoration: none;
+    color: white;
+}
+.footer .footer-third ul li a:hover{
+    color: rgb(119, 119, 221);
+    font-size: 1.3rem;
+}
+
+.footer .footer-third ul li a img{
+    width: 24%;
+}
+
+.footer .footer-fourth ul li a img{
+    width: 25%;
+}
+
